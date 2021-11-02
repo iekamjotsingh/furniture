@@ -38,12 +38,14 @@ ul{
 .logo-main{
     font-size: 24px;
     color: var(--text-color);
+    visibility:hidden;
 }
 .ul-list-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-basis: 30%;
+    visibility:hidden;
 }
 .ul-list-main li a{
     color: var(--text-color);
@@ -60,6 +62,7 @@ ul{
     align-items: center;
     justify-content: space-around;
     flex-basis: 10%;
+    visibility:hidden;
 }
 .shopping-and-search i{
     background: white;
@@ -101,11 +104,13 @@ ul{
     width: 360px;
     height: 200px;
     border-radius: 4px;
+    visibility:hidden;
 }
 .main-section-heading{
     font-size: 70px;
     color: var(--text-color);
     font-weight: normal;
+    visibility:hidden;
 }
 .main-section-heading span{
     color: var(--secondary-text-color);
@@ -117,9 +122,11 @@ ul{
     letter-spacing: 1.1px;
     line-height: 30px;
     font-size: 18px;
+    visibility:hidden;
 }
 .buttons-section{
     display: block;
+    visibility:hidden;
     margin-top: 40px;
 }
 .shop-now,.explore-more{
@@ -150,6 +157,7 @@ ul{
     height: 93vh;
     border-radius: 10px;
     background-size: cover;
+    visibility:hidden;
 }
 /* background*/
 
@@ -181,6 +189,7 @@ ul{
     opacity: .1;
     background-color: var(--secondary-text-color);
     border-radius: 100%;
+    
 }
 .dot:nth-child(1){
     top: 399px;
